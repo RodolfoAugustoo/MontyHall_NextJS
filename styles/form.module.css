@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form > div {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+  margin: 0;
+  align-self: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+.game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+}
+
+.ports{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: stretch;
+}
+
+.buttons{
+  margin-top: 50px;
+  padding: 10px 25px;
+  background-color: deepskyblue;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 5px;
+}
